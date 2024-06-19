@@ -12,7 +12,9 @@ export default {
         'laptop': {'min':'782.1px'}
       }
     },
-    extend: {},
+    extend: {
+      
+    },
   },
   plugins: [],
 }
