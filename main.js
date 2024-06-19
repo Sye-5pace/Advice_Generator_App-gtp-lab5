@@ -1,6 +1,7 @@
 
 const adviceContent = document.getElementById('advice-content')
 const adviceId = document.getElementById('advice-id')
+const adviceFetch = document.getElementById ('advice-fetch')
 
 const adviceDataFetch = async () => {
     try {
@@ -17,3 +18,4 @@ const adviceDataFetch = async () => {
 }
 
 adviceDataFetch()
+adviceFetch.addEventListener('click', adviceDataFetch )

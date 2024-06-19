@@ -11,17 +11,17 @@
     <title>Advice Generator App</title>
   </head>
   <body class="font-manrope w-full min-h-screen p-0 m-0 box-border bg-[#212732] flex justify-center ">
-    <section class="w-[40%] gap-4 h-[21.75rem] px-10 pt-10 bg-[#313A48] m-[10rem] rounded-[0.9375rem] flex flex-col items-center relative shadow-lg p-">
+    <section class="w-[40%] gap-4 h-[21.75rem] px-10 pt-10 bg-[#313A48] m-[10rem] rounded-[0.9375rem] flex flex-col items-center relative shadow-xl">
       <h3 class="text-[#53FFAA] tracking-[0.25rem]" >ADVICE <span id="advice-id"></span></h3>
-      <div id="advice-content" class="text-[#CEE3E9] text-[1.75rem] font-extrabold h-[11rem] border-2"></div>
+      <div id="advice-content" class="text-[#CEE3E9] text-[1.75rem] font-extrabold h-[11rem] "></div>
       <div class="flex gap-8  items-center w-full relative">
         <div class="bg-[#4F5D74] w-[12rem] h-[0.125rem]"></div>  
         <img src="./assets/images/pause-icon.png" alt="pause-icon"/> 
         <div class="bg-[#4F5D74] w-[12rem]  h-[0.125rem]"></div>
       </div>
-      <div class="w-[4rem] h-[4rem] rounded-full bg-[#53FFAA] absolute top-[19.5rem] left-[15rem] hover:cursor-pointer flex items-center justify-center hover:shadow-[#53ffaa] hover:drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]">
+      <button id="advice-fetch" class="w-[4rem] h-[4rem] rounded-full bg-[#53FFAA] absolute top-[19.5rem] left-[15rem] hover:cursor-pointer flex items-center justify-center hover:shadow-[#53ffaa] hover:drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]">
         <img src="./assets/images/icon-dice.svg" alt="dice"/>
-      </div>
+      </button>
     </section>
     <script type="module" src="/main.js"></script>
   </body>
